@@ -27,8 +27,8 @@ Below, you will find list criteria used to determine your development skill leve
 ### Assessment Expectations
 
 Using the below image as a guide, provide a templated reports page.
-Your goal is to build a responsive web-page that accurately matches the design,
-layout, and content of the provided image.
+Your goal is to build a responsive and widely browser-compatible web-page
+that accurately matches the design, layout, and content of the provided image.
 
 ![Assessment Preview](./src/images/preview.png)
 
@@ -49,10 +49,14 @@ to achieve the expected result.
 
 ### Getting Started
 
-Once you have a local copy of this repository,
-open it in a CLI or your preferred IDE, and run the following commands:
+If you have Node.js installed on your machine, running the
+project through `http-server` is an ideal strategy. Open up the project
+in any CLI and run the following commands:
 
 ```
 $ npm install
 $ npm start
 ```
+
+Otherwise, simply open the `index.html` file located within the `src` folder
+in your favourite web browser.

@@ -20,11 +20,7 @@ var reportsWidget = {
     },
 
     init: function() {
-        var inst = this;
-
-        $.getJSON('js/dataset.json', function(response) {
-            inst.renderReports(response.reports || []);
-        });
+        this.renderReports(reportData || []);
     },
 
     renderReports: function(reports) {
