@@ -26,14 +26,15 @@ Below, you will find list criteria used to determine your development skill leve
 
 ### Assessment Expectations
 
-Using the below image as a guide, provide a templated reports page.
+Using the below image as a guide, provide a template-powered reports page.
 Your goal is to build a responsive and widely browser-compatible web-page
 that accurately matches the design, layout, and content of the provided image.
 
 ![Assessment Preview](./src/images/preview.png)
 
-Items should appear `30px` apart and flow within a 3 column grid.
-This grid should switch to a two column grid when the viewport's `width` is `768px` or below.  
+Items should appear `30px` apart and flow within a 3 column grid. This grid
+should also switch to a two column grid when the viewport's `width` is `768px`
+or below. Consider how the page will scale as more reports are added over time.
 
 By default, the assessment will appear broken.
 It is up to you to troubleshoot any missing pieces and build atop the files
