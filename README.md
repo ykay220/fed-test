@@ -45,6 +45,7 @@ to achieve the expected result.
 - Accuracy of design and content
 - Level of efficiency and scalability for the execution of proposed layout
 - Ability to fix bugs and identify syntax errors
+- The page should be compatible with these browsers: Chrome, Firefox, Safari, Edge, and IE 11
 
 ---
 
