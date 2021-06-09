@@ -86,8 +86,16 @@
   padding: 30px 20px;
 }
 
-#q4Wrapper .layout_inner .layout_header {
+#q4Wrapper .layout_header {
   margin-bottom: 30px;
   text-align: center;
+}
+
+#q4Wrapper .layout_accessibleSize {
+  text-align: right;
+}
+
+#q4Wrapper .layout_accessibleSize .down-size {
+  margin-right: 10px;
 }
 /*# sourceMappingURL=main.css.map */

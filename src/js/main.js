@@ -35,3 +35,29 @@ var reportsWidget = {
 };
 
 reportsWidget.init();
+
+
+/*Accessibility Size Change*/
+
+$('.down-size').click(function(){
+    accessibleSize('down');
+});
+$('.up-size').click(function(){
+    accessibleSize('up');
+});
+
+function accessibleSize(upOrDown){
+    //first get current size
+    var initialSize = parseInt($("a").css("font-size")); 
+ 
+    if(upOrDown ==="up"){
+        var newSize = initialSize + 1 + "px"; 
+        $('a').css({'font-size':newSize});
+    }
+    else{
+        var newSize = initialSize - 1 + "px"; 
+        $('a').css('font-size',newSize);
+    }
+     
+}
+ 

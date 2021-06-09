@@ -59,16 +59,29 @@
         }
     }
 
-    .layout_inner {
-        max-width: 960px;
-        margin: 0 auto;
-        padding: 30px 20px;
-
-        .layout_header {
+    .layout{
+        &_inner{
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 30px 20px;
+        }
+        &_header{
             margin-bottom: 30px;
             text-align: center;
         }
+        &_accessibleSize{
+            text-align: right;
+           .down-size{
+               margin-right: 10px;
+           }
+            
+        }
+
     }
+    
+
+      
+   
 
 } 
         
