@@ -1,97 +1,93 @@
 * {
-	box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 #q4Wrapper {
-	background-color: #2A3035;
-	font-family: "Roboto", sans-serif;
-	color: white;
+  background-color: #2A3035;
+  font-family: "Roboto", sans-serif;
+  color: white;
 }
 
-#q4Wrapper h1,
-#q4Wrapper h3 {
-	margin: 0;
+#q4Wrapper h1, #q4Wrapper h3 {
+  margin: 0;
 }
 
 #q4Wrapper h1 {
-	font-size: 48px;
+  font-size: 48px;
 }
 
 #q4Wrapper h3 {
-	font-size: 14px;
-	line-height: 20px;
-	text-transform: uppercase;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
 }
 
-#q4Wrapper header,
-#q4Wrapper footer {
-	background-color: #22272B;
+#q4Wrapper header, #q4Wrapper footer {
+  background-color: #22272B;
 }
 
 #q4Wrapper header {
-	padding: 20px;
+  padding: 20px;
 }
 
 #q4Wrapper footer {
-	margin-top: 10px;
-	max-width: 95%;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 10px;
-	border-radius: 5px;
+  margin-top: 10px;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 #q4Wrapper article {
-	text-align: center;
+  text-align: center;
 }
 
 #q4Wrapper article img {
-	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
 }
 
 #q4Wrapper a {
-	display: inline-block;
-	text-decoration: none;
-	color: white;
-	transition: transform 0.3s ease;
-}
-
-#q4Wrapper a:hover {
-	transform: scale(1.05);
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 
 #q4Wrapper a span {
-	opacity: 0.5;
+  opacity: 0.5;
 }
 
-.layout_inner {
-	max-width: 960px;
-	margin: 0 auto;
-	padding: 30px 20px;
+#q4Wrapper a:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
-
-.layout_header {
-	margin-bottom: 30px;
-	text-align: center;
-}
-
-
-/* aligning 3 items in a grid */
-
-
-/* could use toast or flex or standard inline-block */
 
 #q4Wrapper .reports_item {
-	display: inline-block;
-	width: 33%;
-	padding-bottom: 30px;
+  display: inline-block;
+  width: 33%;
+  padding-bottom: 30px;
 }
-
-
-/* if smaller than 768, then split into only 2 */
 
 @media (max-width: 768px) {
-	#q4Wrapper .reports_item {
-		width: 50%;
-	}
+  #q4Wrapper .reports_item {
+    width: 50%;
+  }
 }
+
+#q4Wrapper .layout_inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+#q4Wrapper .layout_inner .layout_header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
